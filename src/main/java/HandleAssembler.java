@@ -8,6 +8,7 @@ import java.util.List;
 
 public class HandleAssembler {
 
+    // Handler 모두 생성
     public List<Handler> assemble() {
         List<Handler> canonHandlers = new ArrayList<>();
         canonHandlers.add(new CanonHandler_1());

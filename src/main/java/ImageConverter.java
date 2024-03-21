@@ -2,6 +2,7 @@ import java.util.Objects;
 
 public class ImageConverter {
 
+    // 프린터기 이미지 행렬로 변환
     public String imageToMatrix(String image) {
         if(Objects.equals(image, "이미지1")) {
             return "이미지 1 matrix";
