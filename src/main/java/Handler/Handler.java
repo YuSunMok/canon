@@ -1,6 +1,13 @@
 package Handler;
 
+import checkpointprocessor.CheckPointProcessor;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public abstract class Handler {
+
+    Queue<CheckPointProcessor> checkPointProcessQueue = new LinkedList<CheckPointProcessor>();
 
     // 프린터기에 알맞은 Handler인지 확인
     public abstract boolean isCheck(String matrix);
